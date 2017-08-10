@@ -24,7 +24,7 @@
             }
           }
    </pre>
-2.<loding :dalog="dalog" :type="type" :color="color"></loding>
+2.<pre><loding :dalog="dalog" :type="type" :color="color"></loding>
     1. dalog控制否是显示
     2. type选择加载的动画类型
     3. color加载动画的颜色
@@ -50,8 +50,8 @@
               }
             }
           }
-          
- 3.<Popup :dalog="dalog" :title="title" @close="close">
+   </pre>       
+ 3.<pre><Popup :dalog="dalog" :title="title" @close="close">
 			<div style="min-height: 150px;">
 				<p>可自定义DOM结构</p>
 	    </div>
@@ -81,8 +81,8 @@
             }
           }
         }
-    
-4.选项卡
+    </pre>
+4.<pre>选项卡
     		<Tab :title="Tab.tabTitle" :color="Tab.color">
           <div style="width: 33.3%;">
             1
@@ -122,8 +122,8 @@
             }
           }
         }
-        
-5.<topls :dalog="dalog" :msg="msg" :position="position" @close="close"></topls>
+  </pre>      
+5.<pre><topls :dalog="dalog" :msg="msg" :position="position" @close="close"></topls>
   dalog:开启关闭  msg:接受的提示参数   position: top为顶部出现  content为中间弹出  close:关闭方法
   示例代码：
     js
