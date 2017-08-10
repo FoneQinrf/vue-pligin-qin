@@ -85,25 +85,13 @@
 4.选项卡
     		<Tab :title="Tab.tabTitle" :color="Tab.color">
           <div style="width: 33.3%;">
-            1<br />
-            1<br />
-            1<br />
-            1<br />
-            1<br />
+            1
           </div>
           <div style="width: 33.3%;">
-            2<br />
-            2<br />
-            2<br />
-            2<br />
-            2<br />
+            2
           </div>
           <div style="width: 33.3%;">
-            3<br />
-            3<br />
-            3<br />
-            3<br />
-            3<br />
+            3
           </div>
         </Tab>
 		1.内容处接受父组件分发过来的内容
