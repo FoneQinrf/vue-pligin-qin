@@ -2,6 +2,10 @@
 
 第一次写插件，喜欢的可以star
 
+# npm install vue-plugin-qin -g
+# import plugin from 'vue-plugin-qin'
+# Vue.use(plugin)
+
 1.<pre>layer
   ```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
   dalog：控制开启关闭   close：关闭方法  msg：接受的参数
