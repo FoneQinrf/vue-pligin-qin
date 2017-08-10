@@ -1,6 +1,6 @@
 # vue-pligin-qin
 
-第一次写插件，喜欢的可以star
+<pre>第一次写插件，喜欢的可以star
 
 1.layer
   <layer :dalog="dalog" @close="close" :msg="msg"></layer>
@@ -145,5 +145,5 @@
           }
         }
       }
-
+</pre>
 
