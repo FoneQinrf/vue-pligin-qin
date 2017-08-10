@@ -3,9 +3,9 @@
 第一次写插件，喜欢的可以star
 
 1.<pre>layer
-  <layer :dalog="dalog" @close="close" :msg="msg"></layer>
+  ```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
   dalog：控制开启关闭   close：关闭方法  msg：接受的参数
-  示例代码：<layer :dalog="dalog" @close="close" :msg="msg"></layer>
+  示例代码：```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
      js
          export default {
             data() {
@@ -24,11 +24,11 @@
             }
           }
    </pre>
-2.<pre><loding :dalog="dalog" :type="type" :color="color"></loding>
+2.<pre>```<loding :dalog="dalog" :type="type" :color="color"></loding>```
     1. dalog控制否是显示
     2. type选择加载的动画类型
     3. color加载动画的颜色
-  示例代码：<loding :dalog="dalog" :type="type" :color="color"></loding>
+  示例代码：```<loding :dalog="dalog" :type="type" :color="color"></loding>```
      js
        export default {
             data() {
@@ -51,7 +51,7 @@
             }
           }
    </pre>       
- 3.<pre><Popup :dalog="dalog" :title="title" @close="close">
+ 3.<pre>```<Popup :dalog="dalog" :title="title" @close="close">```
 			<div style="min-height: 150px;">
 				<p>可自定义DOM结构</p>
 	    </div>
@@ -59,11 +59,11 @@
     1.dalog 是否开启  参数 true false
     2.title 标题
     3.@close 关闭
-    示例代码：<Popup :dalog="dalog" :title="title" @close="close">
+    示例代码：```<Popup :dalog="dalog" :title="title" @close="close">
                 <div style="min-height: 150px;">
                   <p>可自定义DOM结构</p>
                 </div>
-            </Popup>
+            </Popup>```
       js
         export default {
           data() {
@@ -83,7 +83,7 @@
         }
     </pre>
 4.<pre>选项卡
-    		<Tab :title="Tab.tabTitle" :color="Tab.color">
+    		```<Tab :title="Tab.tabTitle" :color="Tab.color">
           <div style="width: 33.3%;">
             1
           </div>
@@ -93,7 +93,7 @@
           <div style="width: 33.3%;">
             3
           </div>
-        </Tab>
+        </Tab>```
 		1.内容处接受父组件分发过来的内容
 		2.title是选项卡选项的个数 数据类型为数组 {title:'选项名',isShow:'是否默认被选中true or false'} 
 		3.color被选中下划线颜色
@@ -123,7 +123,7 @@
           }
         }
   </pre>      
-5.<pre><topls :dalog="dalog" :msg="msg" :position="position" @close="close"></topls>
+5.<pre>```<topls :dalog="dalog" :msg="msg" :position="position" @close="close"></topls>```
   dalog:开启关闭  msg:接受的提示参数   position: top为顶部出现  content为中间弹出  close:关闭方法
   示例代码：
     js
