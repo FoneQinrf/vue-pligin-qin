@@ -29,9 +29,9 @@
           }
     </pre> 
 2.```<loding :dalog="dalog" :type="type" :color="color"></loding>```
-    </br>1. dalog控制否是显示
-    </br>2. type选择加载的动画类型
-    </br>3. color加载动画的颜色
+    </br>(1). dalog控制否是显示
+    </br>(2). type选择加载的动画类型
+    </br>(3). color加载动画的颜色
   </br>示例代码：```<loding :dalog="dalog" :type="type" :color="color"></loding>```
  <pre>js
        export default {
@@ -60,9 +60,9 @@
 				<p>可自定义DOM结构</p>
 	    </div>
 	</Popup>
-    </br>1.dalog 是否开启  参数 true false
-    </br>2.title 标题
-    </br>3.@close 关闭
+    </br>(1).dalog 是否开启  参数 true false
+    </br>(2).title 标题
+    </br>(3).@close 关闭
    </br> 示例代码：```<Popup :dalog="dalog" :title="title" @close="close">
                 <div style="min-height: 150px;">
                   <p>可自定义DOM结构</p>
@@ -98,9 +98,9 @@
             3
           </div>
         </Tab>```
-		</br>1.内容处接受父组件分发过来的内容
-		</br>2.title是选项卡选项的个数 数据类型为数组 {title:'选项名',isShow:'是否默认被选中true or false'} 
-		</br>3.color被选中下划线颜色
+		</br>(1).内容处接受父组件分发过来的内容
+		</br>(2).title是选项卡选项的个数 数据类型为数组 {title:'选项名',isShow:'是否默认被选中true or false'} 
+		</br>(3).color被选中下划线颜色
 		</br>注：slot被分发的内容必须要平分100%
     </br>示例代码：
 <pre> js
