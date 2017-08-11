@@ -8,8 +8,8 @@
 
 1.layer
   ```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
-  dalog：控制开启关闭   close：关闭方法  msg：接受的参数
-  示例代码：```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
+  #dalog：控制开启关闭   close：关闭方法  msg：接受的参数
+  #示例代码：```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
   <pre>js
          export default {
             data() {
