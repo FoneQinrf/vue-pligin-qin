@@ -10,7 +10,7 @@
   ```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
   dalog：控制开启关闭   close：关闭方法  msg：接受的参数
   示例代码：```<layer :dalog="dalog" @close="close" :msg="msg"></layer>```
-      js
+  <pre>js
          export default {
             data() {
               return {
@@ -27,7 +27,7 @@
               }
             }
           }
-   
+    </pre> 
 2.<pre>```<loding :dalog="dalog" :type="type" :color="color"></loding>```
     1. dalog控制否是显示
     2. type选择加载的动画类型
